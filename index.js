@@ -1,7 +1,7 @@
 //* Задача 1
 const delay = ms => {
     return new Promise(res => {
-        res = setTimeout(logger1(ms), ms)
+        res(ms)
     })
 };
 
